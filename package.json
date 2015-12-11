@@ -16,5 +16,5 @@
     "test": "mocha --compilers js:babel-core/register"
   },
   "author": "Dan Delany <dan.delany@gmail.com>",
-  "license": "ISC"
+  "license": "MIT"
 }

@@ -33,7 +33,7 @@ describe('TicTacToe', function() {
 			game.move('X', [1, 2]); 
 			let state = game.move('O', [2, 1]);
 			assert.equal(state.winner, 'O');
-		})
+		});
 		it('can be won by horizontal line', () => {
 			game.move('X', [0, 0]);
 			game.move('O', [2, 0]);
@@ -42,7 +42,7 @@ describe('TicTacToe', function() {
 			game.move('X', [1, 2]); 
 			let state = game.move('O', [2, 1]);
 			assert.equal(state.winner, 'O');
-		})
+		});
 		it('can be won by descending diagonal line', () => {
 			game.move('X', [0, 0]);
 			game.move('O', [0, 1]);
